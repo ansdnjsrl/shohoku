@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slam Dunk</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: sans-serif;
+      background-color: white;
+      color: black;
+    }
+
+    main {
+      flex: 1; /* 메인 콘텐츠가 남은 공간을 모두 차지 */
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <!-- 상단 네비게이션 -->
+    <header class="navbar">
+      <div class="logo">
+        <a href="slamdunk.html">
+          <img src="shohokulogo.webp" alt="Shohoku Logo" />
+        </a>
+      </div>
+      <nav class="menu">
+        <a href="https://itplanning.co.jp/">공식홈페이지</a>
+        <a href="matchday.html">경기일정</a>
+        <a href="#">선수명단</a>
+        <a href="#">지도</a>
+      </nav>
+    </header>
+
+    <!-- SLAMDUNK 이미지 타이틀 -->
+    <section class="title-section">
+      <div class="image-wrapper">
+        <img src="slamdunkblack.png" class="title-image" alt="Slamdunk 타이틀" />
+      </div>
+    </section>
+
+    <!-- 만화컷 그리드 -->
+    <section class="comic-grid">
+      <div class="grid-item"><img src="home1.jpg" alt="컷1"></div>
+      <div class="grid-item"><img src="home2.jpg" alt=""></div>
+      <div class="grid-item"><img src="home3.jpg" alt=""></div>
+
+      <a href="highlight17.html" class="image-hover-box">
+        <img src="home17black.jpg" class="default" alt="컷4 기본" />
+        <img src="home17.jpg" class="hover" alt="컷4 호버" />
+      </a>
+
+      <a href="highlight20.html" class="image-hover-box">
+        <img src="home20black.jpg" class="default" alt="컷5 기본" />
+        <img src="home20.jpg" class="hover" alt="컷5 호버" />
+      </a>
+
+      <a href="highlight24.html" class="image-hover-box">
+        <img src="home24black.jpg" class="default" alt="컷6 기본" />
+        <img src="home24.jpg" class="hover" alt="컷6 호버" />
+      </a>
+
+      <div class="grid-item"><img src="컷7.jpg" alt=""></div>
+      <div class="grid-item"><img src="컷8.jpg" alt=""></div>
+    </section>
+  </main>
+
+  <!-- 하단 푸터 -->
+  <footer class="footer">
+    <div class="footer-left">slamdunk</div>
+    <div class="footer-center">© 2025 THE FIRST SLAMDUNK / Film Partners</div>
+    <div class="footer-right">
+      <span class="sns-icon"></span>
+      <span class="sns-icon"></span>
+      <span class="sns-icon"></span>
+    </div>
+  </footer>
+
+</body>
+</html>
